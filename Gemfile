@@ -23,6 +23,9 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 gem 'factory_girl_rails', '~> 4.8'
 gem 'faker', '~> 1.7', '>= 1.7.3'
+gem 'will_paginate', '~> 3.1', '>= 3.1.5'
+gem 'bootstrap-will_paginate', '~> 1.0'
+
 
 group :development, :test do
   gem 'byebug', platform: :mri
